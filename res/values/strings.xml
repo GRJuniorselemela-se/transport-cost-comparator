@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ITMBA-TransportCostComparator</string>
+    <string-array name="transport_type_array">
+        <item>Private Vehicle</item>
+        <item>Taxi</item>
+        <item>Bus</item>
+        <item>Train</item>
+        <item>Motorcycle</item>
+    </string-array>
+    <string name="help_text">If calculations appear incorrect:\n\n Verify all input values.\n Ensure a travel date has been selected.\n Confirm that distance and cost are numeric values.\n Save the calculation before viewing reports.</string>
+</resources>

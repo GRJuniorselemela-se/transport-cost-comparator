@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="54dp" />
+
+    <TextView
+        android:id="@+id/tvHelpContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help_text"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:lineSpacingExtra="8dp"
+        android:layout_marginBottom="34dp"/>
+
+    <Button
+        android:id="@+id/btnExitHelp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:backgroundTint="@color/grey" />
+
+</LinearLayout>

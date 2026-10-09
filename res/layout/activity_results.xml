@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transport Report"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/tvModeOfTransport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Mode of Transport:"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvDailyTransportCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Daily Transport Cost:"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvMonthlyTransportCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Monthly Transport Cost:"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvMonthlyDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Monthly Distance Travelled:"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvCostCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Transport Cost Category:"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvRecommendation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Recommendation:"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnCalculateAgain"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Calculate Again"
+            android:backgroundTint="@color/grey"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:backgroundTint="@color/grey" />
+
+    </LinearLayout>
+</ScrollView>
